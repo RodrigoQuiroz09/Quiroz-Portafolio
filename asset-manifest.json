@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Quiroz-Portafolio/static/css/main.073c9b0a.css",
-    "main.js": "/Quiroz-Portafolio/static/js/main.308c5a7d.js",
+    "main.css": "/Quiroz-Portafolio/static/css/main.ef968ab1.css",
+    "main.js": "/Quiroz-Portafolio/static/js/main.c5559842.js",
     "static/js/787.7ea51733.chunk.js": "/Quiroz-Portafolio/static/js/787.7ea51733.chunk.js",
-    "static/media/logo.svg": "/Quiroz-Portafolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/cv.pdf": "/Quiroz-Portafolio/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/me.png": "/Quiroz-Portafolio/static/media/me.821ecddcb9953b46bf75.png",
     "index.html": "/Quiroz-Portafolio/index.html",
-    "main.073c9b0a.css.map": "/Quiroz-Portafolio/static/css/main.073c9b0a.css.map",
-    "main.308c5a7d.js.map": "/Quiroz-Portafolio/static/js/main.308c5a7d.js.map",
+    "main.ef968ab1.css.map": "/Quiroz-Portafolio/static/css/main.ef968ab1.css.map",
+    "main.c5559842.js.map": "/Quiroz-Portafolio/static/js/main.c5559842.js.map",
     "787.7ea51733.chunk.js.map": "/Quiroz-Portafolio/static/js/787.7ea51733.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.308c5a7d.js"
+    "static/css/main.ef968ab1.css",
+    "static/js/main.c5559842.js"
   ]
 }
