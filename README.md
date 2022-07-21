@@ -71,4 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Acknowledgments
 
-Portafolio based on [EDGATOR](https://www.youtube.com/watch?v=G-Cr00UYokU) tutorial video
+- Portafolio based on [EDGATOR](https://www.youtube.com/watch?v=G-Cr00UYokU) tutorial video
+- "Impossible Shape" 3D figure (https://skfb.ly/6X6q7) by Batuhan13 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).)
+- "Voxel Web Development" (https://skfb.ly/opvLV) by Diego G. is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
