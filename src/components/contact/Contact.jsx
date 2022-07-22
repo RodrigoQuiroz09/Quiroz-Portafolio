@@ -12,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_wvnpjzs",
-        "template_fbgz3yk",
+        "service_oj3l9vm",
+        "template_fcq4zyb",
         form.current,
-        "n-d0DrK9GierSHghF"
+        "quMgy-BvXdXjMfMBQ"
       )
       .then(
         (result) => {
@@ -31,8 +31,8 @@ const Contact = () => {
   const contactOptions = [
     {
       type: "Email",
-      info: "enriqueo.aifa@gmail.com",
-      ref: "mailto:enriqueo.aifa@gmail.com",
+      info: "quirozdev@hotmail.com",
+      ref: "mailto:quirozdev@hotmail.com",
     },
     {
       type: "Messenger",
