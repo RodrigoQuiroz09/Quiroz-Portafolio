@@ -12,40 +12,51 @@ import CardInPort from "./CardInPort";
 const Portfolio = () => {
   const contentPortfolio = [
     {
-      title: "This is a portfolio item1 title",
+      title: "Maze Hunter",
       image: IMG1,
-      link_git: "https://github.com",
-      link_demo: "https://github.com",
+      link_git: "https://github.com/RodrigoQuiroz09/MazeHunter",
     },
     {
-      title: "This is a portfolio item2 title",
+      title: "Infinite Runner",
       image: IMG2,
-      link_git: "https://github.com",
-      link_demo: "https://github.com",
+      link_git: "https://github.com/RodrigoQuiroz09/Infinite-Runner",
     },
     {
-      title: "This is a portfolio item3 title",
+      title: "Wave Function Collapse",
       image: IMG3,
-      link_git: "https://github.com",
-      link_demo: "https://github.com",
+      link_git:
+        "https://github.com/RodrigoQuiroz09/TileBased-WaveFunctionCollapse",
     },
     {
-      title: "This is a portfolio item4 title",
+      title: "AIFA Reservation App",
       image: IMG4,
-      link_git: "https://github.com",
-      link_demo: "https://github.com",
+      link_git: "https://github.com/RodrigoQuiroz09/AIFA_Arquitectura",
     },
     {
-      title: "This is a portfolio item5 title",
+      title: "Particle Filter",
       image: IMG5,
-      link_git: "https://github.com",
-      link_demo: "https://github.com",
+      link_git: "https://github.com/RodrigoQuiroz09/Particle-Filter-TC2011.700",
     },
     {
-      title: "This is a portfolio item6 title",
+      title: "Steampunk Guitar Simulation",
       image: IMG6,
-      link_git: "https://github.com",
-      link_demo: "https://github.com",
+      link_git: "https://github.com/RodrigoQuiroz09/ProyectoGraficasReact",
+    },
+    {
+      title: "Portafolio",
+      image: IMG1,
+      link_git: "https://github.com/RodrigoQuiroz09/Quiroz-Portafolio",
+    },
+    {
+      title: "Object Detection",
+      image: IMG2,
+      link_git:
+        "https://github.com/RodrigoQuiroz09/Object-Detection-Vision-Robots",
+    },
+    {
+      title: "Books App",
+      image: IMG3,
+      link_git: "https://github.com/RodrigoQuiroz09/PF-DB_Avanzadas",
     },
   ];
 
