@@ -1,0 +1,87 @@
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+
+  justify-items: center;
+}
+.card {
+  position: relative;
+  width: 375px;
+  height: 375px;
+  color: var(--color-white);
+  text-align: center;
+  display: grid;
+  place-content: center;
+  padding: 10px;
+  background-size: cover;
+  border-radius: 1.8rem;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.card::before,
+.card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: calc(60% + 35px);
+  background-color: var(--color-bg-variant);
+  transition: transform 0.5s.25s ease-in;
+  z-index: -1;
+}
+
+.card::before {
+  top: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0% 100%);
+  transform: translateY(-100%);
+}
+
+.card::after {
+  bottom: 0;
+  clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+  transform: translateY(100%);
+}
+
+.card__content {
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.card__title {
+  color: var(--color-primary);
+  margin-bottom: 15px;
+}
+
+.card__description {
+  font-size: 14px;
+}
+
+.card:hover::before,
+.card:hover::after {
+  transform: translateY(0);
+}
+
+.card:hover .card__content {
+  opacity: 1;
+  transition-delay: 0.75s;
+}
+
+/*=================== MEDIA QUERIES (MEDIUM DEVICES) ===================*/
+
+@media screen and (max-width: 1200px) {
+  .portfolio__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+}
+
+/*=================== MEDIA QUERIES (SMALL DEVICES) ===================*/
+
+@media screen and (max-width: 700px) {
+  .portfolio__container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+}

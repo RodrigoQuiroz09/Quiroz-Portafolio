@@ -20,7 +20,7 @@ const Header = () => {
           <Scene />
         </div>
 
-        <a href="#contact" className="scroll__down">
+        <a href="#about" className="scroll__down">
           Scroll Down
         </a>
       </div>
