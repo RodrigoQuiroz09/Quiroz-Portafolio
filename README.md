@@ -1,12 +1,13 @@
-<h1 align="center">
-  Portfolio Website
-</h1>
-<br/>
-<h2 align="center">
-  <a href="https://rodrigoquiroz09.github.io/Quiroz-Portafolio/" target="_blank">Quiroz-Portafolio.github.io</a>
-</h2>
 <div align="center">
+  <h1>
+  Portfolio Website
+  </h1>
+  <h3>
+   <a href="https://rodrigoquiroz09.github.io/Quiroz-Portafolio/" target="_blank">Quiroz-Portafolio.github.io</a>
+  </h3>
+</div>
 
+<div align="center">
   <img alt="Demo" src="./images/Canvas.png" />
 </div>
 
@@ -14,7 +15,7 @@
 
 ## Built with
 
-This portafolio is build with the intention to expose my projects and show my skills
+This portafolio is build with the intention to expose my projects as well as my resume and show my skills
 
 - [![React][react.js]][react-url]
 - [![HTML][html]][html-url]
@@ -22,7 +23,11 @@ This portafolio is build with the intention to expose my projects and show my sk
 - [![Github-Pages][github]][github-url]
 - [![NodeJS][node]][node-url]
 
-## Instalation and Setup
+## Getting Started
+
+Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+
+### Instalation and Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
