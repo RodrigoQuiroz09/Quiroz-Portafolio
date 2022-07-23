@@ -7,7 +7,7 @@ const CardInPort = ({ content }) => {
     <article
       className="card"
       style={{
-        background: `url(${content.image}) center no-repeat `,
+        background: `url(${content.image}) center no-repeat`,
       }}
     >
       <div className="card__content">
