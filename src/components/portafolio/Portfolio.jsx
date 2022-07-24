@@ -1,12 +1,15 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
+import IMG1 from "../../assets/inprogress.png";
+import IMG2 from "../../assets/InfiniteRunner.gif";
 import IMG3 from "../../assets/wfc.gif";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG4 from "../../assets/aifa.png";
+import IMG5 from "../../assets/particles.gif";
+import IMG6 from "../../assets/guitar.gif";
+import IMG7 from "../../assets/port.png";
+import IMG8 from "../../assets/detect.png";
+import IMG9 from "../../assets/bookapp.png";
 
 import CardInPort from "./CardInPort";
 const Portfolio = () => {
@@ -44,18 +47,18 @@ const Portfolio = () => {
     },
     {
       title: "Portafolio",
-      image: IMG1,
+      image: IMG7,
       link_git: "https://github.com/RodrigoQuiroz09/Quiroz-Portafolio",
     },
     {
       title: "Object Detection",
-      image: IMG2,
+      image: IMG8,
       link_git:
         "https://github.com/RodrigoQuiroz09/Object-Detection-Vision-Robots",
     },
     {
       title: "Books App",
-      image: IMG3,
+      image: IMG9,
       link_git: "https://github.com/RodrigoQuiroz09/PF-DB_Avanzadas",
     },
   ];
