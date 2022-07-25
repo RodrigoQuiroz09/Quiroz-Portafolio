@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/me.jpg";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+import { BiCodeAlt } from "react-icons/bi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -31,25 +31,26 @@ const About = () => {
               <small>1+ Year Working </small>
             </article>
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwild</small>
-            </article>
-            <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>15+ completed </small>
             </article>
+            <article className="about__card">
+              <BiCodeAlt className="about__icon" />
+              <h5>Code</h5>
+              <small>10,000+ Lines of Code</small>
+            </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-            accusamus quos quasi unde, odit aliquid error ratione modi autem.
-            Natus nisi incidunt saepe excepturi ut provident alias quo corrupti
-            quia?
+            Inventive and determined software engineer, focus on Game
+            development and frontend software seeking to make my creative skills
+            and programming knowledge more valuable to my users.
           </p>
-          <a href="#contact" className="btn btn-primary">
-            Let´s Talk
-          </a>
+          <p>
+            Reputable for resolving problems, adept at coding and implementing
+            features, well-organized professional and passionate about
+            developing new technologies.
+          </p>
         </div>
       </div>
     </section>

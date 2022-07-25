@@ -12,10 +12,7 @@ const CardInPort = ({ content }) => {
     >
       <div className="card__content">
         <h3 className="card__title">{content.title}</h3>
-        <p className="card__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
-          reprehenderit! Neque consequatur velit...
-        </p>
+        <p className="card__description">{content.desc}</p>
         <a href={content.link_git} target="_blank" className="card__repo">
           <FaGithub />
         </a>
