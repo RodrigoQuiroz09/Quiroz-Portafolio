@@ -1,17 +1,27 @@
 {
   "files": {
-    "main.css": "/Quiroz-Portafolio/static/css/main.813c9194.css",
-    "main.js": "/Quiroz-Portafolio/static/js/main.9b1876ed.js",
+    "main.css": "/Quiroz-Portafolio/static/css/main.4d723762.css",
+    "main.js": "/Quiroz-Portafolio/static/js/main.c414d204.js",
     "static/js/787.7ea51733.chunk.js": "/Quiroz-Portafolio/static/js/787.7ea51733.chunk.js",
-    "static/media/model.glb": "/Quiroz-Portafolio/static/media/model.6a7235e8190be1a67661.glb",
+    "static/media/guitar.gif": "/Quiroz-Portafolio/static/media/guitar.79f94bcb335710e6d39f.gif",
+    "static/media/InfiniteRunner.gif": "/Quiroz-Portafolio/static/media/InfiniteRunner.e7101014172ce77cbb98.gif",
+    "static/media/model.glb": "/Quiroz-Portafolio/static/media/model.a373d3e5d3422b18c3ad.glb",
+    "static/media/particles.gif": "/Quiroz-Portafolio/static/media/particles.4dee6f2800f167f05512.gif",
+    "static/media/wfc.gif": "/Quiroz-Portafolio/static/media/wfc.35dcb7dc991c6aab268d.gif",
     "static/media/cv.pdf": "/Quiroz-Portafolio/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/detect.png": "/Quiroz-Portafolio/static/media/detect.da95f44e298979687d58.png",
+    "static/media/aifa.png": "/Quiroz-Portafolio/static/media/aifa.36226b31ba99e1502ce6.png",
+    "static/media/me.jpg": "/Quiroz-Portafolio/static/media/me.06f9cc8f1792b3d8bed4.jpg",
+    "static/media/bookapp.png": "/Quiroz-Portafolio/static/media/bookapp.b46e79af3c417c827b7d.png",
+    "static/media/inprogress.png": "/Quiroz-Portafolio/static/media/inprogress.2c5e2bf7212b22d154d9.png",
+    "static/media/port.png": "/Quiroz-Portafolio/static/media/port.6624e5ce502f78579952.png",
     "index.html": "/Quiroz-Portafolio/index.html",
-    "main.813c9194.css.map": "/Quiroz-Portafolio/static/css/main.813c9194.css.map",
-    "main.9b1876ed.js.map": "/Quiroz-Portafolio/static/js/main.9b1876ed.js.map",
+    "main.4d723762.css.map": "/Quiroz-Portafolio/static/css/main.4d723762.css.map",
+    "main.c414d204.js.map": "/Quiroz-Portafolio/static/js/main.c414d204.js.map",
     "787.7ea51733.chunk.js.map": "/Quiroz-Portafolio/static/js/787.7ea51733.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.813c9194.css",
-    "static/js/main.9b1876ed.js"
+    "static/css/main.4d723762.css",
+    "static/js/main.c414d204.js"
   ]
 }
