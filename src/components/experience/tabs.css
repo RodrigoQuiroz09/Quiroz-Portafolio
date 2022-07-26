@@ -1,0 +1,14 @@
+#experience > h2 {
+  margin-bottom: 1.4rem;
+}
+
+.carousel__container {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel__content {
+  width: 60%;
+  height: 650px;
+  margin: 0 auto;
+}

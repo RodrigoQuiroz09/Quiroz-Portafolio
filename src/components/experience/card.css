@@ -1,0 +1,13 @@
+.card__carousel {
+  justify-content: center;
+  background-color: var(--color-bg-variant-2);
+  width: 400px;
+  height: 550px;
+  padding: 0rem 0rem 0rem 0rem;
+  border-radius: 10px;
+}
+.card__carousel h2 {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
