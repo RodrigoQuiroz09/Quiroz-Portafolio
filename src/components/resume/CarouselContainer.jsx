@@ -16,7 +16,7 @@ const CarouselContainer = () => {
             ["Script. Obj.", "Experienced"],
             ["Courutines", "Experienced"],
             ["Physics 3D/2D", "Intermediate"],
-            ["Tile-Based system", "Intermediate"],
+            ["Tiles 2D", "Intermediate"],
             ["Particle Effects", "Basic"],
             ["AI-PathFinding", "Intermediate"],
             ["UI/UX (Canvas)", "Intermediate"],
@@ -147,11 +147,13 @@ const CarouselContainer = () => {
       accord: [
         {
           subtitle: "Quick & Visual Learner",
-          skills: "Texto de Quick",
+          skills:
+            "I am a strong visual learner, determined to solve problems and quickly find an effective solution.",
         },
         {
           subtitle: "Effective Problem Solver",
-          skills: "Texto de Solver",
+          skills:
+            "I have the ability to solve problems and determine the cause of the problem. Prioritize, diagnose, and select the alternatives for a solution",
         },
       ],
     },

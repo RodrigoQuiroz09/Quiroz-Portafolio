@@ -1,11 +1,11 @@
 .skills__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  row-gap: 1rem;
 }
 .skills__details {
   display: flex;
-  gap: 1rem;
+  gap: 0.8rem;
 }
 .skills__details-icon {
   margin-top: 6px;

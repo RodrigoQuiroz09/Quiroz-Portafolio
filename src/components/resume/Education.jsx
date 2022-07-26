@@ -31,7 +31,7 @@ const Education = () => {
         </div>
         <div className="education__courses">
           <GiBookCover size={35} />
-          <h3>Courses</h3>
+          <h3>Online Courses</h3>
           <div className="education__course">
             <GoPrimitiveDot />
             <h4>Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games</h4>
