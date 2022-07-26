@@ -28,7 +28,7 @@ function Card({ content }) {
       <h2>{content.title}</h2>
       <Divider />
       <div className="card__accord">
-        <AccordionMui accord={content.accord} />
+        <AccordionMui accord={content.accord} bullet={content.bullets} />
       </div>
     </animated.div>
   );

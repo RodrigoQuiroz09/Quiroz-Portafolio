@@ -11,3 +11,12 @@
   margin-left: 1.5rem;
   margin-bottom: 1rem;
 }
+
+.forwardandbackicons {
+  transition: 0.3s;
+}
+
+.forwardandbackicons:hover {
+  cursor: pointer;
+  color: #008080;
+}

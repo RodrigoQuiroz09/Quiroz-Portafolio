@@ -1,7 +1,7 @@
 import React from "react";
 import CarouselContainer from "./CarouselContainer";
 import { StyledTabs, StyledTab } from "./StyledTabs";
-import "./experience.css";
+
 import "./tabs.css";
 
 const Experience = () => {

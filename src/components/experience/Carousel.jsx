@@ -1,6 +1,7 @@
 import Carousel from "react-spring-3d-carousel";
 import { useState, useEffect } from "react";
 import { config } from "react-spring";
+import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 
 export default function Carroussel(props) {
   const table = props.cards.map((element, index) => {
@@ -26,6 +27,31 @@ export default function Carroussel(props) {
         showNavigation={showArrows}
         animationConfig={config.gentle}
       />
+      <div
+        style={{
+          margin: "0 auto",
+          marginTop: "2rem",
+          width: "50%",
+          display: "flex",
+          justifyContent: "space-around",
+        }}
+      >
+        <div>
+          <MdKeyboardArrowLeft
+            className="forwardandbackicons"
+            onClick={() => {
+              setGoToSlide(goToSlide - 1);
+            }}
+          />
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <MdKeyboardArrowRight
+            className="forwardandbackicons"
+            onClick={() => {
+              setGoToSlide(goToSlide + 1);
+            }}
+          />
+        </div>
+      </div>
     </div>
   );
 }

@@ -6,14 +6,17 @@ import Card from "./Card";
 const CarouselContainer = () => {
   const content_cards = [
     {
+      bullets: true,
       title: "Game Development",
       accord: [
         {
           subtitle: "Unity Engine",
           skills: [
             ["C#", "Experienced"],
-            ["Scriptable Objects", "Experienced"],
+            ["Script. Obj.", "Experienced"],
             ["Courutines", "Experienced"],
+            ["Physics 3D/2D", "Intermediate"],
+            ["Tile-Based system", "Intermediate"],
             ["Particle Effects", "Basic"],
             ["AI-PathFinding", "Intermediate"],
             ["UI/UX (Canvas)", "Intermediate"],
@@ -31,52 +34,124 @@ const CarouselContainer = () => {
       ],
     },
     {
+      bullets: true,
       title: "Web Develpment",
       accord: [
         {
           subtitle: "Frontend",
           skills: [
-            ["C#", "Experienced"],
-            ["Scriptable Objects", "Experienced"],
-            ["Courutines", "Experienced"],
-            ["Particle Effects", "Basic"],
-            ["AI-PathFinding", "Intermediate"],
-            ["UI/UX (Canvas)", "Intermediate"],
+            ["HTML", "Intermediate"],
+            ["CSS", "Intermediate"],
+            ["JavaScript", "Experienced"],
+            ["Material-UI", "Experienced"],
+            ["React", "Experienced"],
+            ["React-Native", "Experienced"],
+          ],
+        },
+        {
+          subtitle: "Database Management",
+          skills: [
+            ["MongoDB", "Intermediate"],
+            ["MySQL", "Intermediate"],
           ],
         },
         {
           subtitle: "Backend",
           skills: [
-            ["C/C++", "Experienced"],
-            ["Blueprints", "Basic"],
-            ["Class Inheritance", "Intermediate"],
-            ["Blueprint-Behavihours", "Basic"],
+            ["Express", "Intermediate"],
+            ["Flask", "Intermediate"],
           ],
         },
       ],
     },
     {
+      bullets: true,
       title: "Other Languages",
       accord: [
         {
-          subtitle: "Unity Engine",
+          subtitle: "Python",
           skills: [
-            ["C#", "Experienced"],
-            ["Scriptable Objects", "Experienced"],
-            ["Courutines", "Experienced"],
-            ["Particle Effects", "Basic"],
-            ["AI-PathFinding", "Intermediate"],
-            ["UI/UX (Canvas)", "Intermediate"],
+            ["Pandas & Matplot", "Intermediate"],
+            ["Tkinter", "Intermediate"],
+            ["OpenCv", "Intermediate"],
+            ["Tensorflow", "Basic"],
           ],
         },
         {
-          subtitle: "Unreal Engine",
+          subtitle: "Java",
           skills: [
-            ["C/C++", "Experienced"],
-            ["Blueprints", "Basic"],
-            ["Class Inheritance", "Intermediate"],
-            ["Blueprint-Behavihours", "Basic"],
+            ["OOP Programing", "Intermediate"],
+            ["Swing", "Basic"],
           ],
+        },
+      ],
+    },
+    {
+      bullets: true,
+      title: "Miscellaneous",
+      accord: [
+        {
+          subtitle: "Package Manager",
+          skills: [
+            ["NPM", "Intermediate"],
+            ["Yarn", "Intermediate"],
+          ],
+        },
+        {
+          subtitle: "Version Control",
+          skills: [
+            ["Git Hub", "Intermediate"],
+            ["Git", "Intermediate"],
+          ],
+        },
+        {
+          subtitle: "Hosting Services",
+          skills: [
+            ["AWS", "Basic"],
+            ["Git Hub Pages", "Intermediate"],
+            ["Heroku", "Intermediate"],
+          ],
+        },
+      ],
+    },
+    {
+      bullets: true,
+      title: "Hobbies",
+      accord: [
+        {
+          subtitle: "Music",
+          skills: [
+            ["Guitar", "Intermediate"],
+            ["Bass", "Intermediate"],
+            ["Choir", "Intermediate"],
+          ],
+        },
+        {
+          subtitle: "Favourite Games",
+          skills: [
+            ["Smite", ""],
+            ["Life is Strange", ""],
+            ["Riot Games", "Lol, Valorant"],
+
+            ["Tell Tale Games", "TWD, Wolf Among Us"],
+
+            ["Adventure FPS", "Far Cry, Fallout"],
+            ["Minecraft", ""],
+          ],
+        },
+      ],
+    },
+    {
+      bullets: false,
+      title: "Soft Skills",
+      accord: [
+        {
+          subtitle: "Quick & Visual Learner",
+          skills: "Texto de Quick",
+        },
+        {
+          subtitle: "Effective Problem Solver",
+          skills: "Texto de Solver",
         },
       ],
     },
@@ -94,10 +169,22 @@ const CarouselContainer = () => {
       key: uuidv4(),
       content: <Card content={content_cards[2]} />,
     },
+    {
+      key: uuidv4(),
+      content: <Card content={content_cards[3]} />,
+    },
+    {
+      key: uuidv4(),
+      content: <Card content={content_cards[4]} />,
+    },
+    {
+      key: uuidv4(),
+      content: <Card content={content_cards[5]} />,
+    },
   ];
   return (
     <div className="carousel__container">
-      <Carroussel cards={cards} offset={2} showArrows={false} />
+      <Carroussel cards={cards} offset={3} showArrows={false} />
     </div>
   );
 };
