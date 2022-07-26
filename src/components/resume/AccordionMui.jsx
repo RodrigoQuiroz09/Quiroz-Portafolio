@@ -71,7 +71,7 @@ export default function AccordionMui({ accord, bullet }) {
             </AccordionSummary>
             <AccordionDetails>
               {bullet ? (
-                <div className="experience__content">
+                <div className="skills__content">
                   {element.skills.map((item, index) => {
                     return <Skills skill={item[0]} exp={item[1]} />;
                   })}

@@ -1,0 +1,50 @@
+.education__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 55%;
+  background: linear-gradient(
+      var(--color-primary-variant),
+      var(--color-primary-variant)
+    )
+    center/2px 80% no-repeat;
+  background-color: var(--color-bg-variant-2);
+  border-radius: 20px;
+  padding: 1rem 1rem 1rem 1rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.education__school h4 {
+  color: var(--color-light);
+}
+.education__school h5 {
+  color: var(--color-light);
+}
+.education__course {
+  display: flex;
+  align-items: flex-start;
+}
+
+.education__course :first-child {
+  margin-top: 5px;
+}
+
+.education__course h4 {
+  margin-left: 5px;
+}
+.education__courses h3 {
+  color: var(--color-light);
+}
+.education__desc {
+  margin-top: 8px;
+  display: flex;
+  align-items: flex-start;
+}
+.education__desc :first-child {
+  margin-top: 5px;
+}
+
+.education__desc div {
+  margin-left: 8px;
+}

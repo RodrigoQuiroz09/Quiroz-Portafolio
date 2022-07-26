@@ -12,3 +12,14 @@
   height: 650px;
   margin: 0 auto;
 }
+
+.education__container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.experience__container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}

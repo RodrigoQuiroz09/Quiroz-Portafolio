@@ -1,10 +1,12 @@
 import React from "react";
 import CarouselContainer from "./CarouselContainer";
+import Education from "./Education";
+import Experience from "./Experience";
 import { StyledTabs, StyledTab } from "./StyledTabs";
 
 import "./tabs.css";
 
-const Experience = () => {
+const Resume = () => {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -27,13 +29,15 @@ const Experience = () => {
             <CarouselContainer />
           </div>
         ) : value === 1 ? (
-          <div>B</div>
+          <Education />
         ) : (
-          <div>C</div>
+          <div>
+            <Experience />
+          </div>
         )}
       </div>
     </section>
   );
 };
 
-export default Experience;
+export default Resume;
