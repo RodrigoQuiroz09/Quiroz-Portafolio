@@ -64,6 +64,15 @@
   font-size: 2rem;
 }
 
+.card__language {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
 .card:hover::before,
 .card:hover::after {
   transform: translateY(0);

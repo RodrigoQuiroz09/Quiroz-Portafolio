@@ -16,6 +16,7 @@ const CardInPort = ({ content }) => {
         <a href={content.link_git} target="_blank" className="card__repo">
           <FaGithub />
         </a>
+        <span className="card__language text-light">{content.language}</span>
       </div>
     </article>
   );
