@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, useProgress, Text } from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 import { useLoading, BallTriangle } from "@agney/react-loading";
 const Model = React.lazy(() => import("./Model"));
 //"#1f1f38"

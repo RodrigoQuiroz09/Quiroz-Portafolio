@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import CarouselContainer from "./CarouselContainer";
 import Education from "./Education";
 import Experience from "./Experience";
