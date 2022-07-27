@@ -1,5 +1,5 @@
 #experience > h2 {
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.3rem;
 }
 
 .carousel__container {
@@ -10,7 +10,7 @@
 .carousel__content {
   width: 60%;
   height: 650px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .education__container {
@@ -22,4 +22,17 @@
   margin-top: 2rem;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .carousel__content {
+    width: 90%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel__content {
+    height: 580px;
+  }
 }

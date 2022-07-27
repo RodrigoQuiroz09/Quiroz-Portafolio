@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import CarouselContainer from "./CarouselContainer";
 import Education from "./Education";
 import Experience from "./Experience";
@@ -25,15 +25,11 @@ const Resume = () => {
         </StyledTabs>
 
         {value === 0 ? (
-          <div>
-            <CarouselContainer />
-          </div>
+          <CarouselContainer />
         ) : value === 1 ? (
           <Education />
         ) : (
-          <div>
-            <Experience />
-          </div>
+          <Experience />
         )}
       </div>
     </section>

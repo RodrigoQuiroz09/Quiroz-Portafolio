@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import Carroussel from "./Carousel";
 import Card from "./Card";
 
+function getWindowSize() {
+  const { innerWidth, innerHeight } = window;
+  return { innerWidth, innerHeight };
+}
 const CarouselContainer = () => {
+  const [windowSize, setWindowSize] = useState(getWindowSize());
+
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize(getWindowSize());
+    }
+
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
   const content_cards = [
     {
       bullets: true,
@@ -19,7 +36,7 @@ const CarouselContainer = () => {
             ["Tiles 2D", "Intermediate"],
             ["Particle Effects", "Basic"],
             ["AI-PathFinding", "Intermediate"],
-            ["UI/UX (Canvas)", "Intermediate"],
+            ["UI/UX", "Intermediate"],
           ],
         },
         {
@@ -184,9 +201,14 @@ const CarouselContainer = () => {
       content: <Card content={content_cards[5]} />,
     },
   ];
+
   return (
     <div className="carousel__container">
-      <Carroussel cards={cards} offset={3} showArrows={false} />
+      <Carroussel
+        cards={cards}
+        offset={windowSize.innerWidth < 700 ? 0 : 2}
+        showArrows={false}
+      />
     </div>
   );
 };

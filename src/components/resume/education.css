@@ -48,3 +48,22 @@
 .education__desc div {
   margin-left: 8px;
 }
+
+/*=================== MEDIA QUERIES (MEDIUM DEVICES) ===================*/
+
+@media screen and (max-width: 1250px) {
+  .education__card {
+    grid-template-columns: repeat(1, 1fr);
+    background: none;
+    background-color: var(--color-bg-variant-2);
+    width: 75%;
+  }
+}
+
+/*=================== MEDIA QUERIES (SMALL DEVICES) ===================*/
+
+@media screen and (max-width: 600px) {
+  .education__card {
+    width: 85%;
+  }
+}

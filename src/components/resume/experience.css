@@ -27,3 +27,17 @@
 .expereince__desc div {
   margin-left: 8px;
 }
+
+@media screen and (max-width: 1250px) {
+  .experience__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*=================== MEDIA QUERIES (SMALL DEVICES) ===================*/
+
+@media screen and (max-width: 800px) {
+  .experience__grid {
+    width: 90%;
+  }
+}

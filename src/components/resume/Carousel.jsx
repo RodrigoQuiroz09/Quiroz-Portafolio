@@ -30,7 +30,7 @@ export default function Carroussel(props) {
       <div
         style={{
           margin: "0 auto",
-          marginTop: "2rem",
+          marginTop: "0rem",
           width: "50%",
           display: "flex",
           justifyContent: "space-around",

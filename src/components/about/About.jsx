@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import ME from "../../assets/me.jpg";
 import { FaAward } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
@@ -6,24 +6,46 @@ import { VscFolderLibrary } from "react-icons/vsc";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./about.css";
-
+function getWindowSize() {
+  const { innerWidth, innerHeight } = window;
+  return { innerWidth, innerHeight };
+}
 const About = () => {
+  const [windowSize, setWindowSize] = useState(getWindowSize());
+
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    function handleWindowResize() {
+      setWindowSize(getWindowSize());
+    }
+
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
   }, []);
 
   return (
     <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
-      <div className="container about__container">
-        <div className="about__me" data-aos="fade-right">
+      <div
+        className="container about__container"
+        data-aos={windowSize.innerWidth > 1200 ? "fade-right" : ""}
+      >
+        <div className="about__me">
           <div className="about__me-image">
             <img src={ME} alt="" />
           </div>
         </div>
 
-        <div className="about__content" data-aos="fade-left">
+        <div
+          className="about__content"
+          data-aos={windowSize.innerWidth > 1200 ? "fade-left" : ""}
+        >
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />

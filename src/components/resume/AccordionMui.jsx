@@ -36,7 +36,7 @@ const AccordionSummary = styled((props) => (
     transform: "rotate(90deg)",
   },
   "& .MuiAccordionSummary-content": {
-    marginLeft: theme.spacing(1),
+    marginLeft: "5px",
   },
 
   "&:hover": {
@@ -46,6 +46,7 @@ const AccordionSummary = styled((props) => (
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(2),
+  marginLeft: "2px",
   borderTop: "1px solid rgba(0, 0, 0, .125)",
   backgroundColor: "rgba(77, 181, 255, 0.4)",
 }));
@@ -56,7 +57,7 @@ export default function AccordionMui({ accord, bullet }) {
   const handleChange = (panel) => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
   };
-  console.log(bullet);
+
   return (
     <div>
       {accord.map((element, idx) => {
@@ -73,7 +74,7 @@ export default function AccordionMui({ accord, bullet }) {
               {bullet ? (
                 <div className="skills__content">
                   {element.skills.map((item, index) => {
-                    return <Skills skill={item[0]} exp={item[1]} />;
+                    return <Skills skill={item[0]} exp={item[1]} key={index} />;
                   })}
                 </div>
               ) : (
