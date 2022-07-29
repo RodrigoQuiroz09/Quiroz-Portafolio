@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Quiroz-Portafolio/static/css/main.61f4c054.css",
-    "main.js": "/Quiroz-Portafolio/static/js/main.cd1192d7.js",
+    "main.js": "/Quiroz-Portafolio/static/js/main.9b60b434.js",
     "static/js/178.43391706.chunk.js": "/Quiroz-Portafolio/static/js/178.43391706.chunk.js",
     "static/js/787.7ea51733.chunk.js": "/Quiroz-Portafolio/static/js/787.7ea51733.chunk.js",
     "static/js/735.6414450a.chunk.js": "/Quiroz-Portafolio/static/js/735.6414450a.chunk.js",
@@ -21,13 +21,13 @@
     "static/media/port.png": "/Quiroz-Portafolio/static/media/port.6624e5ce502f78579952.png",
     "index.html": "/Quiroz-Portafolio/index.html",
     "main.61f4c054.css.map": "/Quiroz-Portafolio/static/css/main.61f4c054.css.map",
-    "main.cd1192d7.js.map": "/Quiroz-Portafolio/static/js/main.cd1192d7.js.map",
+    "main.9b60b434.js.map": "/Quiroz-Portafolio/static/js/main.9b60b434.js.map",
     "178.43391706.chunk.js.map": "/Quiroz-Portafolio/static/js/178.43391706.chunk.js.map",
     "787.7ea51733.chunk.js.map": "/Quiroz-Portafolio/static/js/787.7ea51733.chunk.js.map",
     "735.6414450a.chunk.js.map": "/Quiroz-Portafolio/static/js/735.6414450a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61f4c054.css",
-    "static/js/main.cd1192d7.js"
+    "static/js/main.9b60b434.js"
   ]
 }
