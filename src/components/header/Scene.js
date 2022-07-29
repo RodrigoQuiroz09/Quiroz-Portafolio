@@ -1,16 +1,29 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import { useLoading, BallTriangle } from "@agney/react-loading";
+import ReactLoading from "react-loading";
+
 const Model = React.lazy(() => import("./Model"));
-//"#1f1f38"
+const Loading = ({ type, color }) => (
+  <ReactLoading type={type} color={color} height={50} width={50} />
+);
 const Scene = () => {
-  const { containerProps, indicatorEl } = useLoading({
-    loading: true,
-    indicator: <BallTriangle width="50" />,
-  });
   return (
-    <Suspense fallback={<section {...containerProps}>{indicatorEl}</section>}>
+    <Suspense
+      fallback={
+        <div
+          style={{
+            height: "100%",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          {" "}
+          <Loading type="spin" color="#fff" />
+        </div>
+      }
+    >
       <Canvas camera={{ position: [1, 5, 12.5], fov: 11 }} className="canvas">
         <ambientLight intensity={0.5} />
         <ambientLight intensity={0.1} />

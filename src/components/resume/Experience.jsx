@@ -11,7 +11,7 @@ const Experience = () => {
         <div className="experience__card">
           <FaLeaf size={35} />
           <h4>Harvestly Co.</h4>
-          <h4>June 2021 - January 2022 (6 mo)</h4>
+          <h4>July 2021 - January 2022 (6 mo)</h4>
 
           <h3>FRONTEND DEVELOPMENT</h3>
           <h4>San Obispo, CA (Remote Job)</h4>
@@ -40,7 +40,7 @@ const Experience = () => {
         <div className="experience__card">
           <MdRecycling size={35} />
           <h4>CIBRUC</h4>
-          <h4>February 2021 - June 2021 (15 mo)</h4>
+          <h4>February 2020 - June 2021 (15 mo)</h4>
           <h3>HEAD GAME DEVELOPER</h3>
           <h4>Ciudad de México, CMDX (Social Service)</h4>
           <div className="expereince__desc">
