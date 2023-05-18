@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
+import StarsCanvas from "./Stars";
 import HeaderSocials from "./HeaderSocials";
 
 import Scene from "./Scene";
@@ -9,9 +10,9 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I´m</h5>
+        <h3>Hello I´m</h3>
         <h1>Rodrigo Quiroz</h1>
-        <h5 className="text-light">Fullstack and Game Developer</h5>
+        <h4 className="text-light">Fullstack and Game Developer</h4>
         <CTA />
         <HeaderSocials />
 
@@ -23,6 +24,7 @@ const Header = () => {
           Scroll Down
         </a>
       </div>
+      <StarsCanvas />
     </header>
   );
 };

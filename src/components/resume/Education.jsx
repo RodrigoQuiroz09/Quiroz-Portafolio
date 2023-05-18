@@ -9,10 +9,10 @@ const Education = () => {
       <div className="education__card">
         <div className="education__school">
           <FaUserGraduate size={35} />
-          <h3>Under-Graduate</h3>
-          <h4>2018-2022</h4>
-          <h3>B.S. Computer Science and Technology</h3>
+          <h3>Bachelor of Computer Science and Technology</h3>
           <h3>Tecnologico de Monterrey (ITESM)</h3>
+          <h4>2018-2023</h4>
+
           <h5>GPA 9.6</h5>
           <div className="education__desc">
             <GoPrimitiveDot />

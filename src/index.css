@@ -57,7 +57,9 @@ h1 {
 section {
   margin-top: 8rem;
 }
-
+div {
+  display: block;
+}
 section > h2,
 section > h5 {
   text-align: center;

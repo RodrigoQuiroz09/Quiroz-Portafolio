@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 import glb from "../../assets/model.glb";
 import { a, useSpring } from "@react-spring/three";
+
 export default function Model({ ...props }) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF(glb);
