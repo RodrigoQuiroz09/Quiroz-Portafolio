@@ -37,6 +37,8 @@ const CarouselContainer = () => {
             ["Particle Effects", "Basic"],
             ["AI-PathFinding", "Intermediate"],
             ["UI/UX", "Intermediate"],
+            ["Custom Editor Tool", "Intermediate"],
+            ["Event Handlers", "Intermediate"],
           ],
         },
         {

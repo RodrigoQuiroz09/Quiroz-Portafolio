@@ -46,9 +46,11 @@ const AccordionSummary = styled((props) => (
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(2),
-  marginLeft: "2px",
+  marginLeft: "0px",
   borderTop: "1px solid rgba(0, 0, 0, .125)",
   backgroundColor: "rgba(77, 181, 255, 0.4)",
+  maxHeight: "330px",
+  overflowY: "auto",
 }));
 
 export default function AccordionMui({ accord, bullet }) {

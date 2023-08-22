@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload } from "@react-three/drei";
+import { OrbitControls } from "@react-three/drei";
 
 import CanvasLoader from "./Loader";
 const Model = React.lazy(() => import("./Model"));

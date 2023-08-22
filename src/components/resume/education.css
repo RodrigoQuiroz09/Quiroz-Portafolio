@@ -23,6 +23,7 @@
 }
 .education__course {
   display: flex;
+  margin-top: 10px;
   align-items: flex-start;
 }
 
@@ -32,6 +33,9 @@
 
 .education__course h4 {
   margin-left: 5px;
+}
+.education__course h4 a {
+  font-size: 15px;
 }
 .education__courses h3 {
   color: var(--color-light);

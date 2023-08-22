@@ -6,6 +6,20 @@
   padding: 0rem 0rem 0rem 0rem;
   border-radius: 10px;
 }
+.card__accord ::-webkit-scrollbar {
+  display: block;
+  width: 10px;
+  overflow-y: auto;
+}
+.card__accord *::-webkit-scrollbar-track {
+  background: rgba(77, 181, 255, 0.2);
+}
+
+.card__accord *::-webkit-scrollbar-thumb {
+  background-color: #92a0c4;
+  border-radius: 12px;
+  border: 0px none #ffffff;
+}
 .card__carousel h2 {
   margin-top: 1rem;
   margin-left: 1.5rem;
