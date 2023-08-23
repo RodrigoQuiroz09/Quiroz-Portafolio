@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/inprogress.png";
 import IMG2 from "../../assets/InfiniteRunner.gif";
 import IMG3 from "../../assets/wfc.gif";
 import IMG4 from "../../assets/aifa.png";
@@ -12,17 +11,26 @@ import IMG8 from "../../assets/detect.png";
 import IMG9 from "../../assets/bookapp.png";
 import IMG10 from "../../assets/Pokemon.gif";
 import IMG11 from "../../assets/toon.gif";
-
+import IMG12 from "../../assets/Gunner.gif";
+import IMG13 from "../../assets/book2up.png";
+// {
+//   language: "English",
+//   title: "Maze Hunter",
+//   image: IMG1,
+//   link_git: "https://github.com/RodrigoQuiroz09/MazeHunter",
+//   desc: "3d game, low poly, with top view with map similar to pacman where the player must collect all the keys to go to the next level where a great reward awaits him.",
+// },
 import CardInPort from "./CardInPort";
 const Portfolio = () => {
   const contentPortfolio = [
     {
       language: "English",
-      title: "Maze Hunter",
-      image: IMG1,
-      link_git: "https://github.com/RodrigoQuiroz09/MazeHunter",
-      desc: "3d game, low poly, with top view with map similar to pacman where the player must collect all the keys to go to the next level where a great reward awaits him.",
+      title: "Dungeon Gunner Rougelike",
+      image: IMG12,
+      link_git: "https://github.com/RodrigoQuiroz09/Dungeon_Gunner",
+      desc: "Utilizing Unity's 2D Game Engine capabilities to craft a Rogue-like dungeon shooter in a 2D format/isometric, akin to titles such as 'Enter The Gungeon' and 'The Binding Of Isaac'.",
     },
+
     {
       language: "English",
       title: "Infinite Runner",
@@ -65,6 +73,13 @@ const Portfolio = () => {
       image: IMG4,
       link_git: "https://github.com/RodrigoQuiroz09/AIFA_Arquitectura",
       desc: "University project that seeks to simulate an airport hangar reservation system. It counts with 2 portals (airline and administrator) to make requests and confirmations of the gates.",
+    },
+    {
+      language: "English",
+      title: "Book 2 Up App",
+      image: IMG13,
+      link_git: "https://github.com/EmilioAG99/book2up-front/tree/main/src",
+      desc: "University project that seeks to simulate e-commerce bookstore. It counts with 2 portals (library and administrator) to buy books and adds them to their inventory and to manage catalog.",
     },
     {
       language: "Spanish",
