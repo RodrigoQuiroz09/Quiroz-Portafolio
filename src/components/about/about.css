@@ -39,6 +39,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+  perspective: 1500px;
 }
 
 .about__card {
@@ -73,7 +74,7 @@
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: var(--color-light);
+  color: rgba(241, 241, 241, 0.831);
 }
 
 /*=================== MEDIA QUERIES (MEDIUM DEVICES) ===================*/

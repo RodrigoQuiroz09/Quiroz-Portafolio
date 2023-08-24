@@ -185,7 +185,6 @@ header {
     font-size: 2.5rem;
   }
   .scroll__down {
-    right: -4.4rem;
-    bottom: 2rem;
+    display: none;
   }
 }

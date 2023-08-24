@@ -5,7 +5,9 @@ import { BiCodeAlt } from "react-icons/bi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import "./CardHoverEffect";
 import "./about.css";
+import CardHoverEffect from "./CardHoverEffect";
 function getWindowSize() {
   const { innerWidth, innerHeight } = window;
   return { innerWidth, innerHeight };
@@ -47,21 +49,21 @@ const About = () => {
           data-aos={windowSize.innerWidth > 1200 ? "fade-left" : ""}
         >
           <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1+ Year Working </small>
-            </article>
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>15+ completed </small>
-            </article>
-            <article className="about__card">
-              <BiCodeAlt className="about__icon" />
-              <h5>Code</h5>
-              <small>10,000+ Lines of Code</small>
-            </article>
+            <CardHoverEffect
+              Icon={<FaAward className="about__icon" />}
+              header="Experience"
+              desc="1+ Year Working"
+            />
+            <CardHoverEffect
+              Icon={<BiCodeAlt className="about__icon" />}
+              header="Projects"
+              desc="15+ completed "
+            />
+            <CardHoverEffect
+              Icon={<VscFolderLibrary className="about__icon" />}
+              header="Code"
+              desc="10,000+ Lines of Code"
+            />
           </div>
           <p>
             Inventive and determined software engineer, focus on Game
@@ -78,5 +80,19 @@ const About = () => {
     </section>
   );
 };
-
+// <article className="about__card">
+//   <FaAward className="about__icon" />
+//   <h5>Experience</h5>
+//   <small>1+ Year Working </small>
+// </article>
+// <article className="about__card">
+//   <VscFolderLibrary className="about__icon" />
+//   <h5>Projects</h5>
+//   <small>15+ completed </small>
+// </article>
+// <article className="about__card">
+//   <BiCodeAlt className="about__icon" />
+//   <h5>Code</h5>
+//   <small>10,000+ Lines of Code</small>
+// </article>
 export default About;
