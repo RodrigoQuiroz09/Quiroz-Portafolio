@@ -30,14 +30,12 @@ const CarouselContainer = () => {
           subtitle: "Unity Engine",
           skills: [
             ["C#", "Experienced"],
-            ["Script. Obj.", "Experienced"],
-            ["Courutines", "Experienced"],
             ["Physics 3D/2D", "Intermediate"],
             ["Tiles 2D", "Intermediate"],
             ["Particle Effects", "Basic"],
             ["AI-PathFinding", "Intermediate"],
             ["UI/UX", "Intermediate"],
-            ["Custom Editor Tool", "Intermediate"],
+            ["Editor Tool", "Intermediate"],
             ["Event Handlers", "Intermediate"],
           ],
         },
@@ -107,7 +105,7 @@ const CarouselContainer = () => {
     },
     {
       bullets: true,
-      title: "Miscellaneous",
+      title: "External Software",
       accord: [
         {
           subtitle: "Package Manager",
@@ -121,6 +119,14 @@ const CarouselContainer = () => {
           skills: [
             ["Git Hub", "Intermediate"],
             ["Git", "Intermediate"],
+          ],
+        },
+        {
+          subtitle: "Testing Tools",
+          skills: [
+            ["JIRA", "Intermediate"],
+            ["Bugzilla", "Basic"],
+            ["Postman", "Basic"],
           ],
         },
         {
@@ -192,7 +198,7 @@ const CarouselContainer = () => {
     },
     {
       key: uuidv4(),
-      content: <Card content={content_cards[3]} />,
+      content: <Card content={content_cards[5]} />,
     },
     {
       key: uuidv4(),
@@ -200,7 +206,7 @@ const CarouselContainer = () => {
     },
     {
       key: uuidv4(),
-      content: <Card content={content_cards[5]} />,
+      content: <Card content={content_cards[3]} />,
     },
   ];
 

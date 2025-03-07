@@ -5,8 +5,18 @@ import UnityCert from "../../assets/Unity.jpg";
 import ReactRedux from "../../assets/ReactRedux.jpg";
 import ReactNative from "../../assets/ReactNative.jpg";
 import UnityCert2 from "../../assets/Unity2.jpg";
+import GameTester_1 from "../../assets/GameTester_1.jpg";
+import GameTester_2 from "../../assets/GameTester_2.jpg";
 
-const certImgs = [UnrealCert, UnityCert, ReactRedux, ReactNative, UnityCert2];
+const certImgs = [
+  UnrealCert,
+  UnityCert,
+  ReactRedux,
+  ReactNative,
+  UnityCert2,
+  GameTester_1,
+  GameTester_2,
+];
 const modal = {
   position: "fixed",
   zIndex: 2,

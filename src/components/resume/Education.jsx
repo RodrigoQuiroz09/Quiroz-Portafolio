@@ -19,6 +19,7 @@ const Education = () => {
           <h3>Bachelor of Computer Science and Technology</h3>
           <h3>Tecnologico de Monterrey (ITESM)</h3>
           <h4>2018-2023</h4>
+          <h4>Class Valedictorian</h4>
 
           <h5>GPA 9.6</h5>
           <div className="education__desc">
@@ -127,6 +128,47 @@ const Education = () => {
               <a
                 onClick={() => {
                   setShowCert(4);
+                  setIsopen(true);
+                }}
+                style={{ cursor: "pointer" }}
+              >
+                <HiEye />
+              </a>
+              <CertModal
+                isOpen={isOpen}
+                setIsopen={setIsopen}
+                cert={showCert}
+              />
+            </h4>
+          </div>
+          <div className="education__course">
+            <GoPrimitiveDot />
+            <h4>
+              QA: Become a Game Tester 2025&ensp;{" "}
+              <a
+                onClick={() => {
+                  setShowCert(5);
+                  setIsopen(true);
+                }}
+                style={{ cursor: "pointer" }}
+              >
+                <HiEye />
+              </a>
+              <CertModal
+                isOpen={isOpen}
+                setIsopen={setIsopen}
+                cert={showCert}
+              />
+            </h4>
+          </div>
+          <div className="education__course">
+            <GoPrimitiveDot />
+            <h4>
+              Kick off your gaming QA career: basics of testing for games
+              5&ensp;{" "}
+              <a
+                onClick={() => {
+                  setShowCert(6);
                   setIsopen(true);
                 }}
                 style={{ cursor: "pointer" }}

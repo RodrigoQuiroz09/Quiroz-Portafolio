@@ -1,6 +1,5 @@
 import React from "react";
 import "./header.css";
-import CTA from "./CTA";
 import StarsCanvas from "./Stars";
 import HeaderSocials from "./HeaderSocials";
 
@@ -13,8 +12,6 @@ const Header = () => {
         <h3>Hello I´m</h3>
         <h1>Rodrigo Quiroz</h1>
         <h4 className="text-light">Fullstack and Game Developer</h4>
-        <CTA />
-        <HeaderSocials />
 
         <div className="me">
           <Scene />
@@ -23,6 +20,7 @@ const Header = () => {
         <a href="#about" className="scroll__down">
           Scroll Down
         </a>
+        <HeaderSocials />
       </div>
       <StarsCanvas />
     </header>
